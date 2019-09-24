@@ -5,12 +5,15 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { FormComponent } from './form/form.component';
-import { FormSerService } from './form/form-ser.service';
+import { LoginComponent } from './login/login.component';
+
+import { FormSerService } from './common/form-ser.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormComponent
+    FormComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
